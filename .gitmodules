@@ -1,0 +1,11 @@
+[submodule "eez"]
+	path = eez
+	url = https://github.com/eez-open/eez-framework
+[submodule "lvgl"]
+	path = lvgl
+	url = https://github.com/littlevgl/lvgl.git
+	branch = release/v8.3
+[submodule "lv_drivers"]
+	path = lv_drivers
+	url = https://github.com/littlevgl/lv_drivers.git
+	branch = release/v8.3
