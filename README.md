@@ -1,4 +1,4 @@
-# LVGL web simulator demo with EEZ Studio
+# LVGL web simulator demo project with EEZ Studio
 
 ## How to get started
 
