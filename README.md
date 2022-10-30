@@ -1,4 +1,4 @@
-# LVGL web simulator project with EEZ Studio
+# LVGL web simulator demo with EEZ Studio
 
 ## How to get started
 
@@ -23,7 +23,7 @@ Download the [Emscripten SDK](https://kripken.github.io/emscripten-site/) and ma
 More info here: https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html
 
 ### Build the project
-1. `cd C:\work\eez\lvgl-web-demo`
+1. `cd <path-to-lvgl-web-demo>`
 2. `mkdir build`
 3. `cd build`
 4. `emcmake cmake ..`
