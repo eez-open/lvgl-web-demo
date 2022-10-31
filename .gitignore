@@ -60,3 +60,5 @@ build/*
 .vscode
 
 *.eez-project-ui-state
+
+!build/index.html
