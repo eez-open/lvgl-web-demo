@@ -1,5 +1,7 @@
 # LVGL web simulator demo project with EEZ Studio
 
+![Screenshot](screenshot.png)
+
 ## How to get started
 
 ### Install SDL
