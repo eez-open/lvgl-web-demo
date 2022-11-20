@@ -2,6 +2,6 @@
 
 #include "vars.h"
 #include "screens.h"
-#include "../flow.h"
+#include "ui.h"
 
 // Define native variables here

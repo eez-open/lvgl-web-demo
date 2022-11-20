@@ -18,8 +18,7 @@
 #include "lv_drivers/indev/mousewheel.h"
 #include "lv_drivers/indev/keyboard.h"
 
-#include "src/flow.h"
-#include "src/ui/screens.h"
+#include "src/ui/ui.h"
 
 /*********************
  *      DEFINES
@@ -72,7 +71,7 @@ int main(int argc, char ** argv)
     hal_init();
 
     /*Init*/
-    flowInit();
+    ui_init();
 
     emscripten_set_main_loop_arg(do_loop, NULL, -1, true);
 }
@@ -83,7 +82,7 @@ void do_loop(void *arg)
      * It could be done in a timer interrupt or an OS task too.*/
     lv_task_handler();
 
-    flowTick();
+    ui_tick();
 
     SDL_Event event;
     
