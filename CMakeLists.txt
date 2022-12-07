@@ -25,20 +25,17 @@ list(APPEND SOURCES ${my_src})
 if (${HAS_FLOW_SUPPORT})
     ################################################################################
     # EEZ Framework
-    add_definitions(-DEEZ_PLATFORM_SIMULATOR)
     add_definitions(-DEEZ_FOR_LVGL)
-    add_definitions(-DEEZ_OPTION_GUI=0)
 
     include_directories(
-        ./
-        ./eez/libs/agg
-        ./eez/platform/simulator
-        ./src/conf
+        ./eez-framework/src
+        ./eez-framework/src/eez/libs/agg
+        ./eez-framework/src/eez/platform/simulator
     )
 
     file(GLOB_RECURSE src_eez
-        ./eez/*.cpp
-        ./eez/*.c
+        ./eez-framework/src/eez/*.cpp
+        ./eez-framework/src/eez/*.c
     )
 
     list(APPEND SOURCES ${src_eez})

@@ -1,5 +1,5 @@
 [submodule "eez"]
-	path = eez
+	path = eez-framework
 	url = https://github.com/eez-open/eez-framework
 [submodule "lvgl"]
 	path = lvgl
