@@ -8,13 +8,17 @@ extern "C" {
 #endif
 
 typedef struct _objects_t {
-    lv_obj_t *Main;
-    lv_obj_t *_obj_button_1;
-    lv_obj_t *_obj_button_2;
-    lv_obj_t *_obj_label_0;
+    lv_obj_t *main;
+    lv_obj_t *obj0;
+    lv_obj_t *obj1;
+    lv_obj_t *obj2;
 } objects_t;
 
 extern objects_t objects;
+
+enum ScreensEnum {
+    SCREEN_ID_MAIN = 1,
+};
 
 void create_screen_main();
 void tick_screen_main();
